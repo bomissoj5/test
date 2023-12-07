@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>exo</title>
+</head>
+<body>
+   <header>
+   
+        <nav>
+            <ul>
+                
+                <img class="image1" src="IMAGE/jb.gif">
+                <li>La<br>commune</li>
+                <li>Cultures &<br>patrimoines</li>
+                <li>Enfance & <br>Education</li>
+                <li>Economie &<br>emploi</li>
+                <li>Outil de vie &<br>environnement</li>
+                <li>Port-<br>bouet<br>Info</li>
+                <img class="image2" src="IMAGE/yf.png">
+                <img class="image3" src="IMAGE/email.jpg">
+                
+            </ul>
+        </nav>
+       
+    </header>
+
+    <section>
+        <marquee><h3>Première Mairie Certifiée ISO 9001 version 2015 en Côte D'Ivoire </h3></marquee>
+        <p>LES + CONSULTÉS </p>
+    </section>
+    <ul>
+        <div class="item">
+            <img class="image4" src="IMAGE/elephant.png"><span>Etat-civil</span>
+        </div>
+        <div class="item">
+            <img class="image4" src="IMAGE/hum.png"><span>Documents Publics</span>
+        </div>
+        <div class="item">
+            <img class="image4" src="IMAGE/emploi.png"><span>Offres D'emplois</span>
+        </div>
+        <div class="item">
+            <img class="image4" src="IMAGE/sport.png"><span>Sport & loisirs</span>
+        </div>
+        <div class="item">
+            <img class="image4" src="IMAGE/pharmacie.png"><span>pharmacie de garde</span>
+        </div>
+        <div class="item">
+            <img class="image4" src="IMAGE/loc.jpg"><span>Port bouet Maps</span>
+        </div>
+        <div class="item">
+            <img class="image4" src="IMAGE/contacte.png"><span>Port bout contacts</span>
+        </div>
+        <div class="item">
+            <img class="image4" src="IMAGE/tel.png"><span>La vision Emmou</span>
+        </div>
+    </ul>
+   <div class="img"></div>
+    <script>
+        const divImg = document.querySelector('.img')
+        let i = 0
+        const imgs = ['ok.jpg','elcapo.jpg','ban.jpg','bon.jpg']
+        const t = setInterval(()=>{
+            divImg.style.backgroundImage = 'url(IMAGE/'+imgs[i]
+            i == (imgs.length-1) ? i = 0 : i++
+        },2000)
+    </script>
+
+</body>
+</html>
