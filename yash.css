@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;1,600&display=swap');
+.logo img{
+    width: 180px;
+}
+body{
+    font-family: 'Poppi', sans-serif;
+    font-size:83%;
+    color:black;
+    background-color:darkolivegreen;
+}
+.pou{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+.container{
+    max-width: 1100px;
+    margin:0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.log {
+    max-width: 130px;   
+    margin:20px auto ;
+    padding-right: 50px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    }
+.col a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    background: rgba(30, 7, 245, 0.897);
+    color: white;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.3s;
+}
+.lala{
+    margin-top: -20px;
+    background: radial-gradient(white white);
+}
+.col a:hover{
+    background: rgb(10, 10, 29);
+}
+.rea{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+.col-3 img{
+    width: 100%;
+    
+}
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #444;
+    margin: 50px 0;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+.col-4 img{
+    width: 100%;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+.ret{
+    color: rgb(238, 255, 0);
+}
+.flexcenter div{
+    width: 70%;
+}  
+footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:black;
+    padding: 0px;
+    color: beige;
+}
+ .footer-section {
+           display:flex;
+           align-items: center;
+       }
+footer a{
+    padding-left: 5%;
+    text-decoration: none;
+}
+footer p{
+    font-size: 15px;
+}
+
+/* Style the search container */
+.search-container {
+    width: 50%;
+    padding: 10px;
+    background: #ddd;
+   }
+
+   /* Style the search input */
+   .search-container input[type=text] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+   }
+   
+   /* Style the search button */
+   .search-container button {
+    padding: 10px;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+   }
+   
+   /* Style the search button when hovering over it */
+   .search-container button:hover {
+    background: #aaa;
+   }
+   button.ert{
+    background-color: black;
+    color: white;
+    margin-bottom: 2px;
+   }
+   .mjg{
+    display: inline-block;
+    padding: 8px 564px;
+    background:black;
+    color: white;
+    margin-top: 0px;
+   }
+   
